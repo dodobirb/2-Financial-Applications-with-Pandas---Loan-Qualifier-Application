@@ -46,7 +46,9 @@ def load_bank_data():
 def save_csv(csvpath, qualifying_loans):
     with open(csvpath, "w") as csvfile:
         data = qualifying_loans
+        headers = ["Lender", "Max Loan", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
         csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(headers)
         csvwriter.writerows(data)
     return data
 
@@ -126,7 +128,7 @@ def save_qualifying_loans(qualifying_loans):
     if len(qualifying_loans) > 0:
         save_confirmation = questionary.confirm("Save the qualifying loans to a new (.csv) file?").ask()
         if save_confirmation:
-            savepath = questionary.text("Enter a file path to save (.csv):").ask()
+            savepath = questionary.text("Enter a file path to save your qualifying loans list to, including your list (.csv):").ask()
             save_csv(savepath, qualifying_loans)
     else:
         print("No qualifying loans found, sorry.")
