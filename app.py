@@ -39,10 +39,9 @@ def load_bank_data():
 
     return load_csv(csvpath)
 
-###
-### RETURN AND REVIEW cvspath NAME: is the repeat from above a problem?
-###
 
+### Saves the csv file path and writes the contents of the .csv file of qualifying 
+### loans. It gets called upon in the function 'save_qualifying_loans' on line 119.
 def save_csv(csvpath, qualifying_loans):
     with open(csvpath, "w") as csvfile:
         data = qualifying_loans
@@ -54,11 +53,11 @@ def save_csv(csvpath, qualifying_loans):
 
 
 def get_applicant_info():
-    #"""Prompt dialog to get the applicant's financial information.
+    """Prompt dialog to get the applicant's financial information.
 
-   # Returns:
-    #    Returns the applicant's financial information.
-    #"""
+   Returns:
+        Returns the applicant's financial information.
+    """
 
     credit_score = questionary.text("What's your credit score?").ask()
     debt = questionary.text("What's your current amount of monthly debt?").ask()
@@ -115,7 +114,8 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-
+### Filters through the new .csv file of the user's available loans and prompts
+### the user to input a file path for the new file.
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
