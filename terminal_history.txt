@@ -1,0 +1,50 @@
+  287  ls
+  288  python app_02_loan_qual_filt_data.py
+  289  cd Module_2_out_of_class/qualifier/utils/
+  290  python app_02_loan_qual_filt_data.py 
+  291  cd ..
+  292  cd ..
+  293  cd 01_Adding_Fire_to_the_Loan_Qualifier_App/
+  294  cd Unsolved/
+  295  python app.py --credit_score=750
+  296  ls
+  297  python app.py --credit_score=750
+  298  python app.py run --credit_score=750
+  299  python app.py run 750
+  300  python app.py run(750)\
+  301  python app.py run(750)
+  302  python app.py run --credit_score 750
+  303  python app.py run 750
+  304  python app.py --credit_score 750
+  305  python app.py --credit_score=750
+  306  python app.py --credit_score=750
+  307  cd ..
+  308  cd ..
+  309  cd 02_Adding_questionary_to_Loan_Qualifier/Unsolved/
+  310  python app.py --credit_score=750 --debt=5000 --income=20000
+  311  python app.py --credit_score=750 --debt=5000 --income=20000
+  312  python app.py --credit_score=750 --debt=5000 --income=20000
+  313  python app.py --credit_score=750 --debt=5000 --income=20000
+  314  cd Desktop/FinTech_Workspace/Module_2_Challenge/
+  315  conda activate dev
+  316  Jupyter Lab
+  317  git add .
+  318  git status
+  319  git add .
+  320  git status
+  321  git commit -m "2nd commit: added all new files & updated README"
+  322  git status
+  323  git push
+  324  history 50 > terminal_history.txt
+  325  pip freeze --Erin Kenny
+  326  pip freeze
+  327  git status
+  328  history 50 > terminal_history.txt
+  329  git add README.md
+  330  git add app.py
+  331  git status
+  332  git add screenshots/
+  333  git commit -m "Final commit: README.md was completed and app.py was touched up"
+  334  git status
+  335  git push
+  336  history 50 > terminal_history.txt
