@@ -1,6 +1,7 @@
-# Loan Qualifier Application
+# 2: Financial Applications with Pandas - Loan Qualifier Application
+FinTech Boot Camp Module 2 Challenge
 
-*Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.*
+---
 
 The purpose of the loan qualifier application was always to filter through a list of avaiable lenders, depending on the applicant's individual finances and lenders' qualification requirements. The original prompts and responses from the program remain as they were:
 
@@ -16,9 +17,7 @@ Now, the user has the ability to save the qualifying loans to a CSV file and sha
 
 ## Technologies
 
-*Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.*
-
-This application was written in Python 3.9.4 .
+This application was written in Python 3.9.4 on a Windows 10 OS.
 
 Libraries used:
 
@@ -29,8 +28,6 @@ Libraries used:
 ---
 
 ## Installation Guide
-
-*In this section, you should include detailed installation notes containing code blocks and screenshots.*
 
 Before running the application, install the following dependencies through GitBash or Terminal. 
 
@@ -48,8 +45,6 @@ To confirm that the dependencies were installed correctly, check their status wi
 ---
 
 ## Usage
-
-*This section should include screenshots, code blocks, or animations explaining how to use your project.*
 
 To use the loan qualifier application, clone the repository and run the **app.py** file with this GitBash or Terminal command:
 
@@ -74,8 +69,6 @@ Upon launching the loan qualifier application you will be greeted with the follo
 
 ## Contributors
 
-*In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.*
-
 Brought to you by E. Kenny for the Business Operations (BizOps) team at ET Home Loans.
 
 ekenny3@uncc.edu
@@ -86,8 +79,6 @@ https://www.linkedin.com/in/erin-kenny-56838b164/
 
 ## License
 
-*When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.*
-
 MIT
 
----
+License file included in repository.
